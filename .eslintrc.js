@@ -7,7 +7,7 @@ module.exports = {
         sourceType: 'module'
     },
     env: {
-        browser: false,
+        browser: true,
         node: true,
         es6: true
     },
@@ -27,10 +27,10 @@ module.exports = {
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
     },
     globals: {
-        App: false,
-        Page: false,
-        wx: false,
-        getApp: false,
-        getPage: false
+        App: true,
+        Page: true,
+        wx: true,
+        getApp: true,
+        getPage: true
     }
 }

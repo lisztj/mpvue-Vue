@@ -1,4 +1,4 @@
-# shangzd
+# mpvue-vue-ydui
 
 > Vue.js in mini program
 
